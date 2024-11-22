@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Mogra&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    padding: 8px;
+    box-shadow: 1px 2px;color: rgb(255, 255, 255);
+}
+
+
+#logo{
+    color: rgb(232, 183, 135);
+    font-size:  35px;
+    font-family: "Meie Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: auto;
+
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#list{
+    margin-top: 20px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+
+}
